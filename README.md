@@ -11,9 +11,9 @@ A Bitcoin Conference 	Website
 
 👤 **Author1**
 
-- (https://github.com/Geoelycom)
--  (https://twitter.com/ely_codes)
-- (https://linkedin.com/in/ekenimoh.saumaila.elyan)
+- https://github.com/Geoelycom
+- https://twitter.com/ely_codes
+- https://linkedin.com/in/ekenimoh-elyan-52b616109
 
 ## 🤝 Contributing
 
