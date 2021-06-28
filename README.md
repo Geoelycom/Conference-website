@@ -1,8 +1,7 @@
 # Project Name
 A Bitcoin Conference 	Website
 
-> One paragraph statement about the project.
-This project is an inspiration from Behance Conference website. i have gone ahead to personalise it and make it contents about the just  concluded bitcoin conference that happened in Maimi this month. I am a Bitcoin ethusiast so i believe building this would give me additional inspiration.
+> This project is an inspiration from Behance Conference website. i have gone ahead to personalise it and make it contents about the just  concluded bitcoin conference that happened in Maimi this month. I am a Bitcoin ethusiast so i believe building this would give me additional inspiration.
 
 ## Built With
 - HTML, CSS & JAVASCRIPT
@@ -12,9 +11,9 @@ This project is an inspiration from Behance Conference website. i have gone ahea
 
 👤 **Author1**
 
-- GitHub:(https://github.com/Geoelycom)
-- Twitter: [@twitterhandle](https://twitter.com/ely_codes)
-- LinkedIn: [LinkedIn](https://linkedin.com/in/ekenimoh.saumaila.elyan)
+- (https://github.com/Geoelycom)
+-  (https://twitter.com/ely_codes)
+- (https://linkedin.com/in/ekenimoh.saumaila.elyan)
 
 ## 🤝 Contributing
 
