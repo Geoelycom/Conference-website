@@ -1,5 +1,74 @@
-* {
+body {
 	margin: 0;
 	padding: 0;
 	box-sizing: border-box;
+	overflow-x: hidden;
 }
+
+* {
+  font-family: 'Cocogoose', lato, sans-serif, Geneva, Tahoma;
+}
+
+@font-face{
+	font-family: 'Cocogoose';
+	      src: url("../fonts/cocogoose.regular.otf"); 
+}
+
+a {
+	text-decoration: none;
+}
+
+header {
+  background-image: url("../Assets/Images/samunspolash.jpg");
+		background-size: cover;
+	/* background-size: 375px, 668px; */
+	background-repeat: no-repeat;
+	width: 100%;
+	height: 100vh;
+	margin: -16px 0 0 0;
+	box-shadow: inset 0 0 0 2000px rgba(0, 0, 0, 0.3);
+}
+
+button {
+position: absolute;
+top: 0;
+left: 0;
+}
+
+.intro {
+position: absolute;
+top: 70px;
+}
+ .intro p, h1 {
+		color: #ec5242;
+		text-align: start;
+		margin: 5px;
+	}
+
+	.intro h1 {
+/* display: flex; */
+color: #ec5242;
+text-align: start;
+font-size: 3.1em;
+font-family: "Cocogoose", lato;
+font-weight: bolder;
+margin-left: 10px;
+background: linear-gradient();
+	}
+
+	#menu-btn{
+	font-size: 2rem;
+	color: red;
+	}
+
+
+
+
+
+
+
+
+
+
+Photo by <a href="https://unsplash.com/@samuelpereira?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Samuel Pereira</a> on <a href="https://unsplash.com/s/photos/conference?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
+  
