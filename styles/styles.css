@@ -1,12 +1,14 @@
-body {
+html, body {
 	margin: 0;
 	padding: 0;
-	box-sizing: border-box;
+	/* box-sizing: border-box; */
 	overflow-x: hidden;
+	text-rendering: optimizeLegibility;
+	
 }
 
 * {
-  font-family: 'Cocogoose', lato, sans-serif, Geneva, Tahoma;
+  font-family: 'Cocogoose', 'lato', sans-serif, Geneva, Tahoma;
 }
 
 @font-face{
@@ -19,14 +21,14 @@ a {
 }
 
 header {
-  background-image: url("../Assets/Images/samunspolash.jpg");
+  background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url("../Assets/Images/samunspolash.jpg");
 		background-size: cover;
 	/* background-size: 375px, 668px; */
 	background-repeat: no-repeat;
 	width: 100%;
 	height: 100vh;
 	margin: -16px 0 0 0;
-	box-shadow: inset 0 0 0 2000px rgba(0, 0, 0, 0.3);
+	/* box-shadow: inset 0 0 0 2000px rgba(0, 0, 0, 0.3); */
 }
 
 button {
@@ -37,30 +39,78 @@ left: 0;
 
 .intro {
 position: absolute;
-top: 70px;
+top: 150px;
 }
- .intro p, h1 {
-		color: #ec5242;
+
+ .intro p {
+		color: #fff;
 		text-align: start;
-		margin: 5px;
+		position: absolute;
+		top: -20px;
+		margin-left: 10px;
+		font-family: 'lato', sans-serif;
+	}
+
+	.intro p::before{
+		content: "\201C";
+	}
+	
+	.intro p::after{
+		content: "\201C";
+	}
+
+	#text {
+position: relative;
+top: 270px;
+color:#fff;
+margin-left: 20px;
+font-family: 'lato', sans-serif;
+line-height: 25px;
+font-size: 15px;
+	}
+	
+	time {
+font-size: 1.3em;
+/* color: rgb(211, 206, 206); */
+color: #d3d3d3;
+font-family: 'cocogoose';
+margin-bottom: 20px;
 	}
 
 	.intro h1 {
 /* display: flex; */
 color: #ec5242;
 text-align: start;
-font-size: 3.1em;
+font-size: 2.0em;
 font-family: "Cocogoose", lato;
 font-weight: bolder;
 margin-left: 10px;
-background: linear-gradient();
+background: linear-gradient(#fee140, #fa709a);
+-webkit-text-fill-color: transparent;
+-webkit-background-clip: text;
+line-height: 32px;
 	}
 
-	#menu-btn{
-	font-size: 2rem;
-	color: red;
-	}
+	.btn {
+		background: none;
+		color: #fff;
+		padding: 15px;
+		border: none;
+}
+	
+.specail-symb{
+	font-family: 'lato';
+}
 
+blockquote{
+display: inline-block;
+margin-left: 21px;
+font-family: 'lato';
+position: relative;
+right: 16px;
+font-weight: 500;
+
+}
 
 
 
