@@ -4,16 +4,15 @@ html, body {
 	/* box-sizing: border-box; */
 	overflow-x: hidden;
 	text-rendering: optimizeLegibility;
-	
 }
 
 * {
   font-family: 'Cocogoose', 'lato', sans-serif, Geneva, Tahoma;
 }
 
-@font-face{
+@font-face {
 	font-family: 'Cocogoose';
-	      src: url("../fonts/cocogoose.regular.otf"); 
+	      src: url("../fonts/cocogoose.regular.otf");
 }
 
 a {
@@ -26,8 +25,9 @@ header {
 	/* background-size: 375px, 668px; */
 	background-repeat: no-repeat;
 	width: 100%;
-	height: 100vh;
-	margin: -16px 0 0 0;
+	height: 150vw;
+	/* height: 100vh; */
+	margin: -4.5vw 0 0 0;
 	/* box-shadow: inset 0 0 0 2000px rgba(0, 0, 0, 0.3); */
 }
 
@@ -39,15 +39,15 @@ left: 0;
 
 .intro {
 position: absolute;
-top: 150px;
+top: 41.7vw;
 }
 
  .intro p {
 		color: #fff;
 		text-align: start;
 		position: absolute;
-		top: -20px;
-		margin-left: 10px;
+		top: -5.6vw;
+		margin-left: 2.7vw;
 		font-family: 'lato', sans-serif;
 	}
 
@@ -61,12 +61,13 @@ top: 150px;
 
 	#text {
 position: relative;
-top: 270px;
+top: 75vw;
 color:#fff;
-margin-left: 20px;
+margin-left: 5.6vw;
 font-family: 'lato', sans-serif;
-line-height: 25px;
-font-size: 15px;
+line-height: 6.9vw;
+font-size: 4.2vw;
+margin-bottom: 
 	}
 	
 	time {
@@ -74,27 +75,28 @@ font-size: 1.3em;
 /* color: rgb(211, 206, 206); */
 color: #d3d3d3;
 font-family: 'cocogoose';
-margin-bottom: 20px;
+margin-bottom: 5.6vw;
 	}
 
 	.intro h1 {
-/* display: flex; */
 color: #ec5242;
 text-align: start;
-font-size: 2.0em;
+/* font-size: 2.0em; */
+font-size: 8vw;
 font-family: "Cocogoose", lato;
 font-weight: bolder;
-margin-left: 10px;
+margin-left: 2.8vw;
 background: linear-gradient(#fee140, #fa709a);
 -webkit-text-fill-color: transparent;
 -webkit-background-clip: text;
-line-height: 32px;
+/* line-height: 32px; */
+line-height: 10vw;
 	}
 
 	.btn {
 		background: none;
 		color: #fff;
-		padding: 15px;
+		padding: 4.2vw;
 		border: none;
 }
 	
@@ -102,23 +104,116 @@ line-height: 32px;
 	font-family: 'lato';
 }
 
-blockquote{
+blockquote {
 display: inline-block;
-margin-left: 21px;
+margin-left: 5.8vw;
 font-family: 'lato';
 position: relative;
-right: 16px;
+right: 4.5vw;
 font-weight: 500;
-
 }
 
+.main-content {
+  background: url("../Assets/Images/background.svg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 190vw;
+  margin: -4.5vw 0 0 0;
+  opacity: 0.98;
+}
 
+h2 {
+  font-family: "lato", sans-serif;
+  color: white;
+  margin: 0;
+  position: relative;
+  text-align: center;
+}
 
+h2::after {
+  display: block;
+  height: 0.6vw;
+  background-color: #ec5242;
+  content: " ";
+  width: 27vw;
+  margin: 0 auto;
+  margin-top: 2.8vw;
+}
 
+.event-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  align-content: space-between;
+  flex-direction: row;
+}
 
+.main-event {
+  display: flex;
+  width: 90vw;
+  height: 15vw;
+  background-color: rgba(173, 171, 171, 0.22);
+  margin: 3.5vw;
+  padding: 3vw;
+  text-align: center;
+  color: #d3d3d3;
+  justify-content: center;
+}
 
+.main-event h3 {
+  color: #ec5242;
+  margin-left: 2vw;
+  font-size: 3.9vw;
+  font-weight: 300;
+}
 
+.main-event img {
+  color: red;
+  width: 18vw;
+  height: 11vw;
+  margin-top: 2.8vw;
+}
 
+.main-event p {
+  font-size: 3.6vw;
+  text-align: start;
+  display: flex;
+  line-height: 4.7vw;
+  font-family: 'lato', sans-serif;
+  align-items: center;
+}
 
-Photo by <a href="https://unsplash.com/@samuelpereira?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Samuel Pereira</a> on <a href="https://unsplash.com/s/photos/conference?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
-  
+.network {
+  margin-left: 6.9vw;
+}
+
+.workshop {
+  margin-left: 2.8vw;
+}
+
+.forum {
+  margin-left: 9.8vw;
+}
+
+.lectures {
+  margin-left: 8.4vw;
+}
+
+.call2action {
+  border: 1px solid #ec5242;
+  background-color: #d83321;
+  color: #d3d3d3;
+  line-height: 20px;
+  width: 260px;
+  height: 30px;
+  margin: auto;
+  font-size: 11.5px;
+  vertical-align: middle;
+  padding: 15px;
+  position: relative;
+  top: 20px;
+}
+
+/* Deskstop version of website at screen size 768 - 1024 */
