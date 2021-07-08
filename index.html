@@ -7,7 +7,7 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<link rel="preconnect" href="https://fonts.googleapis.com">
 	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-	<link rel="preconnect" href="https://fonts.googleapis.com/css2?family=Lato:wght@300&display=swap" rel="stylesheet">
+	<link rel="preconnect" href="https://fonts.googleapis.com/css2?family=Lato:wght@300&display=swap">
 	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.3/css/all.css"
 		integrity="sha384-SZXxX4whJ79/gErwcOYf+zWLeJdY/qpuqC4cAa9rOGUstPomtqpuNWT9wdPEn2fk" crossorigin="anonymous">
 	<link rel="stylesheet" href="fonts/cocogoose.regular.otf">
@@ -19,55 +19,80 @@
 	<!-- Header section of the mobile website version starts here -->
 	<header>
 		<nav>
-			<ul>
-				<li class="hambuger-menu">
-					<button type="button" class="btn"><svg xmlns="http://www.w3.org/2000/svg" width="30" height="30"
-							fill="currentColor" viewBox="0 0 24 24" stroke="currentColor">
-							<path stroke-linecap="round" stroke-linejoin="round" stroke-width="3"
-								d="M4 6h16M4 12h16M4 18h16" />
-						</svg></button>
-				</li>
-			</ul>
+			<button type="button" class="btn hambuger-menu"><svg xmlns="http://www.w3.org/2000/svg" width="30"
+					height="30" fill="currentColor" viewBox="0 0 24 24" stroke="currentColor">
+					<path stroke-linecap="round" stroke-linejoin="round" stroke-width="3" d="M4 6h16M4 12h16M4 18h16" />
+				</svg></button>
 		</nav>
-		<section class="intro">
-			<p>Decentralized Online Summit</p>
-			<h1> BLOCKCHAIN <br> GLOBAL SUMMIT <br> 2021</h1>
+		<section class="main-wrapper">
+			<div class="main-nav">
+				<ul id="main-bar">
+					<li><i class="fab fa-facebook-f"></i></li>
+					<li><i class="fab fa-twitter"></i></li>
+					<li><a href="#">Logout</a></li>
+					<li><a href="#">Mypage</a></li>
+					<li><a href="#">English</a></li>
+				</ul>
+			</div>
+			<div class="program-section">
+				<button class="nav__close" id="close-button" type="button">
+					<svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" fill="currentColor"
+						viewBox="0 0 24 24" stroke="currentColor">
+						<path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+							d="M6 18L18 6M6 6l12 12" />
+					</svg>
+				</button>
+				<a href="index.html"> <img src="Assets/Icons/running.jpeg" id="logo" alt="logo"></a>
+				<ul class="nav-menu">
+					<li class="about"><a href="about.html">About</a></li>
+					<li><a href="#">Program</a></li>
+					<li><a href="#">Join</a></li>
+					<li><a href="#">Sponsors</a></li>
+					<li><a href="#">News</a></li>
+					<li id="camp"><a href="#">Campaign</a></li>
+				</ul>
+			</div>
 		</section>
-		<main id="text">
-			<p>Welcome to the 2021 bitcoin conference. Understanding Blockchain technologies and why cyrptocurrency
-				is going mainstream</p>
+		<section class="home-page">
+			<p class="moto">Keeping You Healthy</p>
+			<h1 class="main-header">
+				RAY'S ELEMENT AQUA <br /> GLOBAL SUMMIT <br /> 2021 </h1>
+			<p class="main-text">Aqua's Gym is the Number one training facility in the west-side, A joyfull arena
+				where
+				we make you meet your fitness Goals happening yearly in over 30 states.</p>
 			<time datetime="2021-08-20"> 2021.08.20(FRI) &sim; 26(THU) </time>
 			<blockquote>&commat; Mana Convention Center Wynwood Miami</blockquote>
-		</main>
+		</section>
 	</header>
-	<!-- Header section of the mobile website version Ends here -->
-
-	<!-- Main program Session Starts here -->
-	<section class="main-content">
+	<section class="main-program">
 		<h2>Main Program</h2>
 		<div class="event-container">
 			<div class="main-event">
 				<img src="Assets/Icons/lecture.png" alt="lecture-flaticon">
 				<h3>Lecture</h3>
-				<p class="lectures">Listen to the top cryptocurrency experts as they share their knowledge on bitcoin
-					and blockchain.</p>
+				<p class="lectures">Listen to top fitness coaches and experts as they share their knowledge on how to
+					live a healthy
+					lifestle.</p>
 			</div>
 			<div class="main-event">
 				<img src="Assets/Icons/exhibiiton.png" alt="exhibition-flaticon">
 				<h3>Exhibition</h3>
-				<p class="workshop">Take a look around and apprecaite the ingenuity blockchain technology as created.
+				<p class="workshop">Take a look around and get inspired by the different ways you can keep yourself fit
+					and healthy.
 				</p>
 			</div>
 			<div class="main-event">
 				<img src="Assets/Icons/forum.png" alt="forum-flaticon">
 				<h3>Forum</h3>
-				<p class="forum">Have the opportunity to share your thoughts and opinions with experts for each topic .
+				<p class="forum">Have the opportunity to share your thoughts and opinions with experts on topics that
+					interest you.
 				</p>
 			</div>
-			<div class="main-event">
+			<div class="main-event white-design">
 				<img src="Assets/Icons/workshop.png" alt="workshop-flaticon">
 				<h3>Workshop</h3>
-				<p class="workshop"> Get your hands in the game by using open source to rather than just be a spectator.
+				<p class="workshop"> Get your hands in the game by having the opportunity of been trained physically by
+					a top fitness instructor.
 				</p>
 			</div>
 			<div class="main-event">
@@ -77,11 +102,48 @@
 					the summit.</p>
 			</div>
 		</div>
-		<p class="call2action">Join the Blockchain Global Summit 2021</p>
+		<p class="call2action">Join the Element Aqual Summit 2021</p>
+		<div class="all-program">
+			<h2>SEE THE WHOLE PROGRAM SCHEDULE</h2>
+		</div>
 	</section>
-	<!-- Main program Session ends here -->
+	<!-- The below section is Dynamically generated with javascript from the DOM  -->
+	<section class="featured-speakers">
+		<h2>Featured Speakers</h2>
 
-	<!-- Featured speakers start here -->
+		<div class="speaker-container" id="speakers">
+			 
+		</div> 
+	</section>
+	<!-- The above section is Dynamically generated with javascript from the DOM  -->
+
+
+	<section class="partner">
+		<div class="footer-mobile">
+			<h2>Partners</h2>
+			<ul class="partners-mobile">
+				<li><a href="https://www.mozilla.org/en-US/firefox/new/" id="light">mozilla</a></li>
+				<li><a href="https://www.google.com/">Google</a></li>
+				<li><a href="https://www.naver.com/" id="lightgrey">NAVER</a></li>
+				<li><a href="https://www.crunchbase.com/organization/daum-kakao">daumkakao</a></li>
+				<li><a href="https://www.airbnb.com/">Airbnb</a></li>
+			</ul>
+		</div>
+	</section>
+
+
+	<footer class="footer-container">
+		<div class="footer-child">
+			<h3><span class="circle">cc</span>Ray's<span>aqua</span> </h3>
+		</div>
+		<div class="footer-child">
+			<p class="rights">2020 elements aqua creations. all rights reserved</p>
+			<p class="message">Every content in this page is the sole property of ray's aqua. transfer,use, publication
+				without the
+				credits is hereby prohibited and violations is subject to charges under law</p>
+		</div>
+	</footer>
+	<script type="module" src="javascript/index.js"></script>
 </body>
 
 </html>
