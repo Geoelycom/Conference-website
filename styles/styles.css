@@ -569,7 +569,10 @@ h5 {
     flex-direction: column;
     width: 20vh;
     height: 20vh;
-    padding: 40px;
+    padding: 35px;
+    margin: 2px;
+    border: 2px;
+    border-radius: 5px;
   }
 
   .main-event img {
