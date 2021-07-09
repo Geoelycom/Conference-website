@@ -629,8 +629,9 @@ ul.nav-menu a:hover {
   }
 
   .past-summits h3 {
-    font-family: 'cocogoose', 'lato', sans-serif;
-    font-size: 20px;
+    font-family: 'lato', sans-serif;
+    font-size: small;
+    font-weight: lighter;
   }
 
   .past-summits h3::after {
@@ -650,6 +651,7 @@ ul.nav-menu a:hover {
   .Summit-examples {
     flex-direction: row;
     justify-content: center;
+    background: #fafafa;
   }
 
   .Summit-examples img {
