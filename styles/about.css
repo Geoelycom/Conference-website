@@ -148,7 +148,7 @@ ul.nav-menu a:hover {
 .desktop-article {
   font-size: 13px;
   line-height: 18px;
-  font-family: sans-serif, 'lato';
+  font-family: 'lato', sans-serif;
   text-align: center;
   width: 100%;
   background: #fff;
@@ -446,7 +446,7 @@ ul.nav-menu a:hover {
     flex-direction: row;
     border-right: 0;
     justify-content: space-between;
-    background: azure;
+    background: #fff;
   }
 
   .nav-menu,
@@ -476,6 +476,7 @@ ul.nav-menu a:hover {
     display: flex;
     flex-direction: row;
     align-items: center;
+    background: #fff;
   }
 
   .home-page {
@@ -603,8 +604,8 @@ ul.nav-menu a:hover {
   }
 
   .past-summits h3 {
-    font-family: 'cocogoose', sans-serif;
-    font-size: 15px;
+    font-family: 'cocogoose', 'lato', sans-serif;
+    font-size: 20px;
   }
 
   .past-summits h3::after {

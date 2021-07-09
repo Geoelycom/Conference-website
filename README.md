@@ -17,7 +17,7 @@ This project is an inspiration from Behance Conference website. i have gone ahea
 ## Live Demo 👀
 
 [Demo Link explaining my project on Loom](https://loom.com/share/c6da5af4745446568cf53c42faa0ffa0)
-[Live Demo Link]()
+[Live Demo Link](https://geoelycom.github.io/Conference-website/)
 
 ### Install
 
@@ -67,6 +67,7 @@ Give a ⭐️ if you like this project!
 
 
 - Inspiration
+- Cindy Shin From Behance
 - Fit-summit-camp 
 - myself 😏
 
