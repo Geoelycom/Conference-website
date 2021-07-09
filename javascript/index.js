@@ -10,7 +10,6 @@ menuBtn.addEventListener('click', () => {
 menuClose.addEventListener('click', () => {
 	dropDown.style.display = 'none';
 })
-
 //Acessing speakers from Data.js
 const featuredSpeakers = Data.speakers;
 // Acessing full data of speakers
