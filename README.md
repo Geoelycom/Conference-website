@@ -19,7 +19,7 @@ This project is an inspiration from Behance Conference website. i have gone ahea
 [Demo Link explaining my project on Loom](https://loom.com/share/c6da5af4745446568cf53c42faa0ffa0)
 [Live Demo Link]( https://geoelycom.github.io/Conference-website/)
 
-![img](./Assets/images/livedemo.png)
+![img](./Assets/Images/livedemo.png)
 
 ### Install
 
